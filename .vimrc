@@ -5,14 +5,6 @@ filetype off
 
 au BufRead,BufNewFile *.scss set filetype=scss
 " au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
-"
-"
-"
-"
-"
-"
-"
-"
 " VUNDLE
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -41,6 +33,7 @@ Bundle "kchmck/vim-coffee-script"
 
 
 set guifont=Menlo:h14
+set linespace=8
 
 syntax on
 set number
